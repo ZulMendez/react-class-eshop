@@ -15,7 +15,7 @@ class Articles extends Component {
                         <Card.Title><h3>{this.props.article.produit}</h3></Card.Title>
                         <Card.Text>
                             <h5>Prix: {this.props.article.prix}€</h5> 
-                            <h5>Stock: {this.props.article.stock ===0 ? "Rupture de stock" : `Stock: ${this.props.article.stock} unités`}</h5>
+                            <h5>Stock: {this.props.article.stock ===0 ? "Rupture de stock" : `${this.props.article.stock} unités`}</h5>
                         </Card.Text>
                         <Button onClick={() => this.props.acheter()} variant="outline-success">Acheter</Button>{' '}
                     </Card.Body>
