@@ -1,0 +1,7 @@
+.carteBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(236, 246, 243);
+    opacity: 0.9;
+}
